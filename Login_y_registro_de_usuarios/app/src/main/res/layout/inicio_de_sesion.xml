@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ingresa tu contraseña:"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="553dp" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="498dp"
+        android:layout_height="498dp"
+        app:srcCompat="@drawable/premium_vector___vector_graphic_of_gradient_abstract_background_design_template"
+        tools:layout_editor_absoluteX="-12dp"
+        tools:layout_editor_absoluteY="-88dp" />
+
+    <EditText
+        android:id="@+id/editTextText3"
+        android:layout_width="332dp"
+        android:layout_height="66dp"
+        android:backgroundTint="#03255F"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Inicio de Sesión"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        tools:layout_editor_absoluteX="39dp"
+        tools:layout_editor_absoluteY="215dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword2"
+        android:layout_width="391dp"
+        android:layout_height="50dp"
+        android:backgroundTint="#0337F4"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:text="Contraseña"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="572dp" />
+
+    <EditText
+        android:id="@+id/editTextText4"
+        android:layout_width="394dp"
+        android:layout_height="53dp"
+        android:backgroundTint="#0C47FA"
+        android:drawableTint="#00BCD4"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Nombre"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="445dp" />
+<!-- elemento  que permite mostrar texto en la interfaz;
+Android Studio define el ancho y el alto para cada elemento de manera automatica.-->
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ingresa tú nombre de usuario:"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="426dp" />
+<!-- elemento del tipo boton, que tambien permite
+mostar un mensaje que define la acción del boton-->
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="180dp"
+        android:layout_height="68dp"
+        android:backgroundTint="#0CAFFA"
+        android:text="Iniciar Sesión"
+        tools:layout_editor_absoluteX="152dp"
+        tools:layout_editor_absoluteY="670dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="180dp"
+        android:layout_height="66dp"
+        android:backgroundTint="#00BCD4"
+        android:text="Crear Cuenta"
+        tools:layout_editor_absoluteX="152dp"
+        tools:layout_editor_absoluteY="750dp" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="141dp"
+        tools:layout_editor_absoluteY="87dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
